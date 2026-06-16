@@ -1,0 +1,43 @@
+API(Application Programming Interface)
+An API (Application Programming Interface) is a set of rules that allows different software applications to communicate with each other.
+
+Think of it like a waiter in a restaurant:
+You (the user) place an order.
+The waiter (the API) takes your order to the kitchen.
+The kitchen (the server/application) prepares the food.
+The waiter brings the food back to you.
+
+Summary: An API is a way for software systems to talk to each other and exchange data or functionality.
+
+Common uses:
+1. Fetching weather data in an app
+2. Logging in with Google/Facebook
+3. Processing payments via Stripe
+4. Getting tweets from Twitter
+
+
+//HTTP vs HTTPS
+Both are protocols for transferring data between a client (browser/app) and a server — the difference is security.
+
+Feature                           HTTP                   HTTPS 
+Full name              HyperText Transfer Protocol   HTTP Secure
+Encryption             ❌ None                      ✅ SSL/TLS encrypted
+Data safety            Exposed in plain text         Encrypted, unreadable to outsiders
+Port                   80                            443
+URL starts wit         hhttp://                      https://
+Use case               Old/internal sites            All modern websites & APIs
+
+---------------------------------------------------
+/// JSON: JavaScript Object Notation.
+
+*It is a lightweight format used to store and exchange data between applications, especially when working with APIs.
+
+**JSON Structure: JSON stores data as key-value pairs.  key are in "double quotes", 
+but not number , true/false 
+
+**Differences
+JavaScript Object	    JSON
+Keys can be unquoted	Keys must be in double quotes
+Can contain functions	Cannot contain functions
+Used inside JavaScript	Used for data exchange
+
