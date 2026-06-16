@@ -22,11 +22,21 @@ function postValues() {
         //     console.log(post)
         // }
 
+        // 1. get the container:
+        const getContainer = document.getElementById("post-container");
+        // console.log(getContainer);
         //using for each:
         posts.forEach(post => {
-            console.log(post)
-        }
+            // console.log(post);
 
+            // 2.create HTML element:
+            const li = document.createElement("li")
+            li.innerText = post.title;
+            console.log(li);
+
+            //add to container:
+            getContainer.appendChild(li);
+        }
         )
     }
 }
