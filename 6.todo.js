@@ -14,7 +14,10 @@ const allTodo = () => {
             const todoBox = document.createElement("div");
             todoBox.innerHTML = `
             <div class="todoBox">
-            <p>${value.completed}</p>
+                <p>${value.completed == true ?
+                    `<i class="fa-solid fa-square-check"></i>` :
+                    `<i class="fa-regular fa-square-check"></i>`
+                }</p>
             <h1>${value.title}</h1>  
             </div>
             `
