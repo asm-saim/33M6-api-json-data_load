@@ -11,7 +11,14 @@ const allTodo = () => {
 
     function todoCard(values) {
         values.forEach(value => {
-            console.log(value)
+            const todoBox = document.createElement("div");
+            todoBox.innerHTML = `
+            <div class="todoBox">
+            <p>${value.completed}</p>
+            <h1>${value.title}</h1>  
+            </div>
+            `
+            
         })
     }
 
