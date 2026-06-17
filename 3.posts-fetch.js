@@ -5,7 +5,7 @@ function loadPost() {
         .then(response => response.json())
         .then(data => {
             console.log(data); // logs the full array of 100 posts
-            displayData(data); // 3️⃣ send the array to displayData()
+            displayData(data); // send the array to displayData()
         });
 }
 

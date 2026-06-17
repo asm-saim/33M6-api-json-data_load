@@ -21,9 +21,10 @@ function postValues() {
         // for (let post of posts) {
         //     console.log(post)
         // }
-
+ 
         // 1. get the container:
         const getContainer = document.getElementById("post-container");
+        getContainer.innerHTML = "";
         // console.log(getContainer);
         //using for each:
         posts.forEach(post => {
@@ -32,7 +33,7 @@ function postValues() {
             // 2.create HTML element:
             const li = document.createElement("li")
             li.innerText = post.title;
-            console.log(li);
+            // console.log(li);
 
             //add to container:
             getContainer.appendChild(li);
