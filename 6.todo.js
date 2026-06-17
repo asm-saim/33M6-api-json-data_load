@@ -18,7 +18,7 @@ const allTodo = () => {
             <h1>${value.title}</h1>  
             </div>
             `
-            
+            getTodos.appendChild(todoBox)
         })
     }
 
