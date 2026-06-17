@@ -92,9 +92,7 @@ Fetching data takes time.
 Imagine:
 
 console.log("Start");
-
 fetch(url);
-
 console.log("End");
 
 Output:
@@ -102,13 +100,14 @@ Output:
 Start
 End
 
-JavaScript doesn't wait for the API response.
+*JavaScript doesn't wait for the API response.
 
-That's because fetch() is asynchronous.
+*That's because fetch() is asynchronous.
 
 
-//async tells JavaScript: "This function contains asynchronous operations and will return a Promise."
+async: async marks a function as asynchronous and makes it automatically return a Promise.
 
-//await tells JavaScript: "Pause this async function until the Promise finishes."
+await: await pauses the execution of an async function until a Promise resolves and returns its resolved value.
 
 --------------------------------------------------------------------------
+
