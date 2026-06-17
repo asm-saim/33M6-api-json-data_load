@@ -1,3 +1,11 @@
+//Learning:
+1. http, https, DNS, IPV4, IPV6
+2 JSON
+3. API(GET, POST, PATCH, PUT, DELETE)
+4.fetch
+5. async, await
+
+
 API(Application Programming Interface)
 An API (Application Programming Interface) is a set of rules that allows different software applications to communicate with each other.
 
@@ -15,6 +23,16 @@ Common uses:
 3. Processing payments via Stripe
 4. Getting tweets from Twitter
 ---------------------------------------------------------------------
+//Types of API Requests (HTTP Methods)
+
+METHOD      FULL NAME        WHAT IT DOES                EXAMPLE              
+GET         Retrieve         Gets data from server       Get user list, posts 
+POST        Create           Sends new data to server    Create a new user    
+PUT         Replace/Update   Replaces full data          Update entire user info  
+PATCH       Partial Update   Updates part of data        Update only name/email  
+DELETE      Delete           Removes data                Delete a user                    |
+
+---------------------------------------------------------------------
 
 //HTTP vs HTTPS
 Both are protocols for transferring data between a client (browser/app) and a server — the difference is security.
@@ -24,7 +42,7 @@ Full name              HyperText Transfer Protocol   HTTP Secure
 Encryption             ❌ None                      ✅ SSL/TLS encrypted
 Data safety            Exposed in plain text         Encrypted, unreadable to outsiders
 Port                   80                            443
-URL starts wit         hhttp://                      https://
+URL starts wit         http://                      https://
 Use case               Old/internal sites            All modern websites & APIs
 
 ---------------------------------------------------
